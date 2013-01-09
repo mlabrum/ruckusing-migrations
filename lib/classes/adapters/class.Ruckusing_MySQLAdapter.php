@@ -854,6 +854,10 @@ class Ruckusing_MySQLAdapter extends Ruckusing_BaseAdapter implements Ruckusing_
                 $column_type_sql .= sprintf("(%d)", $limit);
             }
         }
+	
+	if(array_key_exists("raw", $options)){
+		$column_type_sql .= " " . $options['raw'];
+	}
 
         return $column_type_sql;
     }//type_to_sql
