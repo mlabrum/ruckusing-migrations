@@ -19,6 +19,6 @@
 		"PHP":">=5"
 	},
 	"bin":[
-		"ruckusing-migrations.php"
+		"ruckusing-migrations"
 	]
 }
