@@ -19,8 +19,6 @@
 		"PHP":">=5"
 	},
 	"bin":[
-		"generate.php",
-		"main.php",
-		"update_ruckusing_database.php"
+		"ruckusing-migrations.php"
 	]
 }
